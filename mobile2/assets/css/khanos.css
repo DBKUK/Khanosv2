@@ -1,0 +1,293 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.it_red{
+    background-color: #c40000;
+    color: #fff;
+
+}
+.it_orange{
+    background-color: #ff8400;
+    color: #000000;
+
+}
+.it_yellow{
+    background-color: #ffde00;
+    color: #000000;
+   
+}
+.it_green{
+    background-color: #199102;
+    color: #fff;
+ 
+}
+.it_blue{
+    background-color: #00bcd4;
+    color: #000000;
+  
+}
+.it_purple{
+    background-color: #9c27b0;
+    color: #fff;
+    
+}
+.it_gray{
+    background-color: #878787;
+    color: #000000;
+    
+}
+.it_brown{
+    background-color: #8c6239;
+    color: #fff;
+   
+}
+.it_pink{
+    background-color: #ec008c;
+    color: #000000;
+    
+}
+.it_black{
+    background-color: #111111;
+    color: #ffffff;
+    
+}
+    .hide {
+    display:none
+}
+.btn-khanos{
+    height: 70px;
+   padding-top: 20px;
+    margin-bottom: 4px;
+    vertical-align: middle !important;
+}
+.btn-khanos-tab{
+    height: 50px;
+    margin-bottom: 5px;
+    vertical-align: middle !important;
+    padding-top: 10px;
+}
+.tab-pane-khanos{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.kh-btn-box{
+    float: left;
+    width: 20% !important;
+    margin: 5px;
+    height: 80px;
+    display: table;
+    text-align: center !important;   
+    overflow: hidden;
+}
+
+.kh-btn-box form, button{
+display: table-cell;
+text-align: center;
+background: none;
+border: none;
+font-weight: bold;
+vertical-align: middle;
+}
+
+.kh-btn-box a {
+display: table-cell;
+text-align: center;
+background: none;
+border: none;
+font-weight: bold;
+vertical-align: middle;
+}
+
+.kh-btn-box  button {
+    width: 100%;
+    height: 100px;
+display: table-cell;
+text-align: center;
+background: none;
+border: none;
+font-weight: bold;
+vertical-align: middle;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color: #333;
+  z-index: 1000;
+  box-shadow: 0px 0px 15px #999;
+  padding-top: 0px;
+
+}
+.tab-khanos{
+    background-color: #555;
+}
+.btn-khanos-nav{
+    margin: 5px;
+}
+.tab-khanos-content{
+    background-color: #ccc; 
+padding-right: 3px !important;
+    padding-left: 18px !important;
+
+}
+.btn-khanos-cont{
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: -5px;
+  margin-top: 0px;
+ overflow: hidden;
+ font-size: 18px;    
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgba(255,255,255,0.70);
+    overflow-x: hidden;
+    transition: 0.2s;
+    padding-top: 60px;
+    text-align:center;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.logo{
+    height: auto;
+    width: auto
+}
+.logo img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.order-list{
+    min-height: 200px;
+    max-height: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: auto;
+    padding-bottom: 50px;
+    padding-left: 4px;
+    padding-right:10px;
+    box-shadow: inset 0 0px 15px 2px rgba(0, 0, 0, 0.3);
+    background-color: #fbfbfb;
+    
+}
+.order-list li {
+ border-bottom: 1px dotted #aaa;
+ font-size: 14px;
+ padding-bottom: 4px;
+ padding-top: 4px; 
+ width: 100%;
+}
+
+.khanos-price{
+    color: #fff;
+    float: right;
+    font-size: 20px;
+     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .3s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: .3s;
+}
+/* Standard syntax */
+@-webkit-keyframes example {
+ 0%  {font-size: 20px; }
+ 50% {font-size: 45px;
+color: #0f0; }
+ 100%  {font-size: 20px;
+color: #fff; }
+}
+@keyframes example {
+ 0%  {font-size: 20px; }
+ 50% {font-size: 45px;
+color: #0f0; }
+ 100%  {font-size: 20px;
+color: #fff; }
+
+}
+
+.loader{
+    text-align: center;
+    color:#00bcd4;
+}
+
+.price_btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
