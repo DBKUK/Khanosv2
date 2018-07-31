@@ -30,7 +30,7 @@ require_once 'modules/system/login/login.php';
     <form class="form-signin" method="POST" enctype="multipart/form-data">
       
      
-      <input type="password" id="inputPassword" autocomplete="off" name="Pass" class="form-control" placeholder="Password" data-placement="bottom" placeholder="Password" data-trigger="hover"required>
+      <input type="password" id="inputPassword" autocomplete="off" name="Pass" class="form-control"  placeholder="Password" autofocus required="required" >
  
       <button class="btn btn-lg btn-outline-success btn-block" type="submit">Sign in</button>
     
